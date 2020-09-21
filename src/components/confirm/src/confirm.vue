@@ -36,5 +36,6 @@
     .confirm-wrap{width:400px;height:200px;background-color:#FFFFFF;position:absolute;z-index:1;left:50%;top:50%;transform: translate(-50%,-50%);border-radius: 5px;}
     .confirm-wrap .message{text-align: center;margin-top:45px;font-size:16px;}
     .confirm-wrap .handle{width:100%;display: flex;justify-content: space-between;margin-top:50px;padding:0px 40px;box-sizing: border-box;}
-    .confirm-wrap .handle .btn{font-size:16px;cursor:pointer;}
+    .confirm-wrap .handle .btn{font-size:16px;cursor:pointer;padding:10px 20px;box-sizing:border-box;}
+
 </style>

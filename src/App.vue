@@ -80,13 +80,14 @@ export default {
   text-decoration: none;
   .sv-header{
     height: 200px;
-    background: hotpink;
+    background: #99CCFF;
   }
   .sv-body{
     display: flex;
     .sv-left{
       width: 200px;
-      background: rgb(175, 105, 255);
+      height:calc(100vh - 200px);
+      background: rgba(155, 208, 240, 1);
       ul{
         text-align: center;
         li{
