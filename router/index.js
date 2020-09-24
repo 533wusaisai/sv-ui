@@ -8,7 +8,7 @@ export default new VueRouter({
     routes: [
         {
             path: '/',
-            component: ()=>import('@/components/button')
+            component: ()=>import('@/components/button/index.vue')
         },
         {
             path: '/dialog',

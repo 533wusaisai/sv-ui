@@ -11,7 +11,7 @@
             <router-link to="/dialog">Dialog 对话框</router-link>
           </li>
           <li>
-            <router-link to="/dropdown">Button 按钮</router-link>
+            <router-link to="/dropdown">downLoad 按钮</router-link>
           </li>
           <li>
             <router-link to="/">Button 按钮</router-link>
@@ -100,5 +100,9 @@ export default {
       margin-top: 20px;
     }
   }
+  li{
+    list-style-type:none;
+  }
+  
 }
 </style>
